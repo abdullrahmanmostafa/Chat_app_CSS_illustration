@@ -1,0 +1,54 @@
+*
+{
+    font-family: Rubik;
+}
+.back-color::after
+{
+    content: "";
+    height: 100vh;
+    background-image: linear-gradient(to bottom,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    display: flex;
+    width: 800px;
+    margin: -234px;
+    margin-top: -57px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 47%;
+    
+    
+}
+.table
+{
+    border-radius: 15px;
+}
+.card::after
+{
+    content: "";
+    background-color: hsl(0deg 0% 100%);
+    width: 200px;
+    height: 35px;
+    display: flex;
+    position: relative;
+    top: -752px;
+    left: 50px;
+    border-radius: 25px;
+}
+.message
+{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(238 229 244);
+    width: fit-content;
+    height: fit-content;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(148 112 174);
+    border-radius: 10px;
+
+}
+.message img
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 2.5px;
+}

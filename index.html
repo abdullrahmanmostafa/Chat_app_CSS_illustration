@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/test.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&amp;family=Big+Shoulders+Display:wght@700&amp;family=Fraunces:opsz,wght@9..144,700&amp;family=Hanken+Grotesk:wght@500;600;700;800&amp;family=Kumbh+Sans:wght@400;700&amp;family=Lexend+Deca&amp;family=Montserrat:wght@500;700&amp;family=Outfit:wght@300;400;700&amp;family=Rubik:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="back-color"></div>
+<div class="content" style="
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    /* top: 50%; */
+    top: 30px;
+">
+  <div class="card" style="width: 350px;height: 650px;background-color: hsl(270, 20%, 96%);border: 15px white solid;border-radius: 25px;box-shadow: 5px 5px 12px #cacaca;">
+    <div class="table" style="
+    height: 105px;
+    background-image: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-3px;
+">
+      <table>
+        <tbody><tr>
+          
+          <td style="
+    /* margin-top: 80px; */
+"><img src="images/avatar.jpg" alt="" style="
+    width: 25px;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: -80px;
+"></td>
+          <td style="
+    top: 20px;
+    /* margin-top: 50px; */
+    position: relative;
+    left: -35px;
+"><span style="
+    position: relative;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    top: 5px;
+">Samuel Green</span>
+          <br>
+          <span style="
+    font-size: 10px;
+    color: hsl(206, 6%, 79%);
+">Available to Walk</span>
+          </td>
+          <td style="
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 85px;
+    font-size: 25px;
+    font-weight: 700;
+">⫶</td>
+        </tr>
+      </tbody></table>
+    </div>
+    <div class="message">That sounds great. I’d be 
+      <br>
+      happy with that.
+    </div>
+    <div class="message">  Could you send over some 
+      <br>
+      pictures of your dog, please?
+    </div>
+    <div class="message" style="
+    background-color: transparent;
+    position: relative;
+    left: 57%;
+">
+      <img src="images/dog-image-1.jpg" alt="">
+      <img src="images/dog-image-2.jpg" alt="">
+      <img src="images/dog-image-3.jpg" alt="">
+    </div>
+    <div class="message" style="
+    background-color: white;
+    position: relative;
+    left: 39%;
+">  Here are a few pictures. She’s 
+      <br>
+      a happy girl!
+    </div>
+    <div class="message" style="
+    background-color: white;
+    position: relative;
+    left: 61%;
+">  Can you make it?
+    </div>
+    <div class="message">  She looks so happy! The time 
+      <br> 
+      we discussed works. How
+      <br>
+       long shall I take her out for?
+    </div>
+    <div class="message" style="
+    background-image: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 215px;
+    height: 25px;
+    ">
+ <span style="
+    font-size: 30px;
+">◌</span> 
+ <span style="
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+">30 minute walk</span>
+ <span style="
+    font-size: 20px;
+    padding-left: 40px;
+">$29</span>
+</div>
+    <div class="message" style="
+    background-image: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    color: white;
+    width: 215px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+">	 <span style="
+    font-size: 30px;
+    padding-right: 10px;
+">◌</span>
+     <span style="
+    font-size: 10px;
+    font-weight: 400;
+    padding-right: 85px;
+">1 hour walk</span>
+     <span style="
+    font-size: 20px;
+"> $49</span>
+     </div>
+     <div class="message" style="
+    align-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    left: 5px;
+">
+      <span style="
+    font-size: 12px;
+    font-weight: 400;
+    color: #c6cacd;
+">type text message...</span>
+      <span style="
+    width: 15px;
+    height: 15px;
+    background-color: #070b3f;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+"> &gt; </span>
+    
+    </div>
+  </div>
+  <div class="para" style="
+    position: relative;
+    left: 15%;
+"> 
+    <div class="title" style="
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: 700;
+    color: #38254f;
+    margin-bottom: 60px;
+">Simple booking</div>
+
+    <p style="
+    color: #b9b7b9;
+    font-weight: 400;
+">Stay in touch with our dog walkers through the chat <br>
+      interface. This makes it easy to 
+      discuss arrangements and
+      <br>
+       make bookings. Once the walk has been completed you can
+       <br>
+        rate 
+      your walker and book again all through the chat.</p>
+    </div>
+</div>
+  <!-- Samuel Green
+  Available to Walk
+
+  That sounds great. I’d be happy with that.
+
+  Could you send over some pictures of your dog, please?
+
+  Here are a few pictures. She’s a happy girl!
+
+  Can you make it?
+
+  She looks so happy! The time we discussed works. How long shall I take her out for?
+
+  30 minute walk
+  $29
+
+  1 hour walk
+  $49
+
+  Type a message…
+
+  Simple booking
+
+  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat. -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">ABDULLRAHMAN MOSTAFA</a>. -->
+  
+
+</body></html>
